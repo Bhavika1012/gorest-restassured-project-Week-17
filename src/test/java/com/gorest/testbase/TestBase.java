@@ -1,17 +1,13 @@
-package com.studentapp.testbase;
+package com.gorest.testbase;
 
 import io.restassured.RestAssured;
 import org.junit.BeforeClass;
 
-/**
- * Created by Jay Vaghani
- */
 public class TestBase {
 
     @BeforeClass
     public static void inIt() {
-        RestAssured.baseURI = "http://localhost";
-        RestAssured.port = 8080;
-        RestAssured.basePath = "/student";
+        RestAssured.baseURI = "https://gorest.co.in";
+        RestAssured.basePath = "/public/v2/users";
     }
 }

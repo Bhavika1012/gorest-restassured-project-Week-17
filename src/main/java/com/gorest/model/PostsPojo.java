@@ -1,2 +1,4 @@
-package com.gorest.model;public class PostsPojo {
+package com.gorest.model;
+
+public class PostsPojo {
 }

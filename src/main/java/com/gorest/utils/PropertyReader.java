@@ -1,4 +1,4 @@
-package com.luma.propertyreader;
+package com.gorest.utils;
 
 import java.io.FileInputStream;
 import java.util.Properties;
